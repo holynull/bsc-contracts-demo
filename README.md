@@ -99,6 +99,22 @@ truffle test test/helloworld.test.ts --network=bsc_test
 
 怎么知道刚才是在testnet上进行了测试呢，我们去bscscan上查一下。
 
+## 发布到mainnet上
+
+首选需要我们的地址上又一些BNB，用来付gas fee。
+
+我们可以通过bridge：从钱包中把ERC20的BNB转到我们的地址上。
+
+https://www.binance.org/en/bridge# 
+
+或者，我们从币安的交易所的账号中，提取一些BNB到我们BSC的地址上。
+
+然后，我们就可以发布合约到主网了。
+
+truffle migrate --f=1 --to=1 --network=bsc_main
+
+
+
 
 
 
