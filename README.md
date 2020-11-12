@@ -1,5 +1,7 @@
 # BSC链合约开发
 
+github: holynull
+
 https://github.com/holynull/bsc-contracts-demo
 
 ## 前期准备
