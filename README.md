@@ -113,6 +113,10 @@ https://www.binance.org/en/bridge#
 
 truffle migrate --f=1 --to=1 --network=bsc_main
 
+## 更多关于BSC
+
+https://www.binance.org/en/smartChain
+
 
 
 
