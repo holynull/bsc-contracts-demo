@@ -50,6 +50,8 @@ module.exports = {
 
 注意这个文件不要发到github上去了
 
+为了开发调试的时候更直观的管理钱包，我们可以将这个助记词导入到Binance Wallet Extension
+
 ## 配置truffle的network
 
 ## 创建一个合约HolleWorld
@@ -110,6 +112,8 @@ https://www.binance.org/en/bridge#
 或者，我们从币安的交易所的账号中，提取一些BNB到我们BSC的地址上。
 
 然后，我们就可以发布合约到主网了。
+
+演示从另外一个钱包转账到当前开发account上
 
 truffle migrate --f=1 --to=1 --network=bsc_main
 
