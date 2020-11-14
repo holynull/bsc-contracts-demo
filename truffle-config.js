@@ -48,12 +48,13 @@ module.exports = {
         dev: {
             host: "127.0.0.1",     // Localhost (default: none)
             port: 8545,            // Standard Ethereum port (default: none)
-            network_id: "1605179864247",       // Any network (default: none)
+            network_id: "1605266404818",       // Any network (default: none)
         },
         bsc_main: {
             provider: () => new HDWalletProvider(mnemonic, "https://bsc-dataseed1.defibit.io/"),
             network_id: 56,
             chain_id: 56,
+            gas: 3000000,
         },
         bsc_test: {
             provider: () => new HDWalletProvider(mnemonic, "https://data-seed-prebsc-1-s1.binance.org:8545/"),
